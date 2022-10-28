@@ -7,4 +7,6 @@
 void EventStateLoss::eventCell(Field &field) {
     if(field.getPlayer()->getHp()==0)
         field.setState(LOSS);
+
 }
+EventStateLoss::~EventStateLoss() {}

@@ -475,19 +475,19 @@ CMakeFiles/untitled2.dir/Log/FileLogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Log/FileLogger.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/akimfeopentov/Рабочий стол/OOPLB3/Log/FileLogger.cpp" -o CMakeFiles/untitled2.dir/Log/FileLogger.cpp.s
 
-CMakeFiles/untitled2.dir/Log/StatLog.cpp.o: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/Log/StatLog.cpp.o: ../Log/StatLog.cpp
-CMakeFiles/untitled2.dir/Log/StatLog.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/akimfeopentov/Рабочий стол/OOPLB3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/untitled2.dir/Log/StatLog.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/Log/StatLog.cpp.o -MF CMakeFiles/untitled2.dir/Log/StatLog.cpp.o.d -o CMakeFiles/untitled2.dir/Log/StatLog.cpp.o -c "/home/akimfeopentov/Рабочий стол/OOPLB3/Log/StatLog.cpp"
+CMakeFiles/untitled2.dir/Log/LogManager.cpp.o: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/Log/LogManager.cpp.o: ../Log/LogManager.cpp
+CMakeFiles/untitled2.dir/Log/LogManager.cpp.o: CMakeFiles/untitled2.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/akimfeopentov/Рабочий стол/OOPLB3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/untitled2.dir/Log/LogManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled2.dir/Log/LogManager.cpp.o -MF CMakeFiles/untitled2.dir/Log/LogManager.cpp.o.d -o CMakeFiles/untitled2.dir/Log/LogManager.cpp.o -c "/home/akimfeopentov/Рабочий стол/OOPLB3/Log/LogManager.cpp"
 
-CMakeFiles/untitled2.dir/Log/StatLog.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/Log/StatLog.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/akimfeopentov/Рабочий стол/OOPLB3/Log/StatLog.cpp" > CMakeFiles/untitled2.dir/Log/StatLog.cpp.i
+CMakeFiles/untitled2.dir/Log/LogManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled2.dir/Log/LogManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/akimfeopentov/Рабочий стол/OOPLB3/Log/LogManager.cpp" > CMakeFiles/untitled2.dir/Log/LogManager.cpp.i
 
-CMakeFiles/untitled2.dir/Log/StatLog.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Log/StatLog.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/akimfeopentov/Рабочий стол/OOPLB3/Log/StatLog.cpp" -o CMakeFiles/untitled2.dir/Log/StatLog.cpp.s
+CMakeFiles/untitled2.dir/Log/LogManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled2.dir/Log/LogManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/akimfeopentov/Рабочий стол/OOPLB3/Log/LogManager.cpp" -o CMakeFiles/untitled2.dir/Log/LogManager.cpp.s
 
 # Object files for target untitled2
 untitled2_OBJECTS = \
@@ -520,7 +520,7 @@ untitled2_OBJECTS = \
 "CMakeFiles/untitled2.dir/Log/Logger.cpp.o" \
 "CMakeFiles/untitled2.dir/Log/ConsolLogger.cpp.o" \
 "CMakeFiles/untitled2.dir/Log/FileLogger.cpp.o" \
-"CMakeFiles/untitled2.dir/Log/StatLog.cpp.o"
+"CMakeFiles/untitled2.dir/Log/LogManager.cpp.o"
 
 # External object files for target untitled2
 untitled2_EXTERNAL_OBJECTS =
@@ -554,7 +554,7 @@ untitled2: CMakeFiles/untitled2.dir/Log/Observable.cpp.o
 untitled2: CMakeFiles/untitled2.dir/Log/Logger.cpp.o
 untitled2: CMakeFiles/untitled2.dir/Log/ConsolLogger.cpp.o
 untitled2: CMakeFiles/untitled2.dir/Log/FileLogger.cpp.o
-untitled2: CMakeFiles/untitled2.dir/Log/StatLog.cpp.o
+untitled2: CMakeFiles/untitled2.dir/Log/LogManager.cpp.o
 untitled2: CMakeFiles/untitled2.dir/build.make
 untitled2: CMakeFiles/untitled2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/akimfeopentov/Рабочий стол/OOPLB3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable untitled2"

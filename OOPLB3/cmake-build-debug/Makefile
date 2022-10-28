@@ -561,6 +561,30 @@ Log/FileLogger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/FileLogger.cpp.s
 .PHONY : Log/FileLogger.cpp.s
 
+Log/LogManager.o: Log/LogManager.cpp.o
+.PHONY : Log/LogManager.o
+
+# target to build an object file
+Log/LogManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/LogManager.cpp.o
+.PHONY : Log/LogManager.cpp.o
+
+Log/LogManager.i: Log/LogManager.cpp.i
+.PHONY : Log/LogManager.i
+
+# target to preprocess a source file
+Log/LogManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/LogManager.cpp.i
+.PHONY : Log/LogManager.cpp.i
+
+Log/LogManager.s: Log/LogManager.cpp.s
+.PHONY : Log/LogManager.s
+
+# target to generate assembly for a file
+Log/LogManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/LogManager.cpp.s
+.PHONY : Log/LogManager.cpp.s
+
 Log/Logger.o: Log/Logger.cpp.o
 .PHONY : Log/Logger.o
 
@@ -608,30 +632,6 @@ Log/Observable.s: Log/Observable.cpp.s
 Log/Observable.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/Observable.cpp.s
 .PHONY : Log/Observable.cpp.s
-
-Log/StatLog.o: Log/StatLog.cpp.o
-.PHONY : Log/StatLog.o
-
-# target to build an object file
-Log/StatLog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/StatLog.cpp.o
-.PHONY : Log/StatLog.cpp.o
-
-Log/StatLog.i: Log/StatLog.cpp.i
-.PHONY : Log/StatLog.i
-
-# target to preprocess a source file
-Log/StatLog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/StatLog.cpp.i
-.PHONY : Log/StatLog.cpp.i
-
-Log/StatLog.s: Log/StatLog.cpp.s
-.PHONY : Log/StatLog.s
-
-# target to generate assembly for a file
-Log/StatLog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/StatLog.cpp.s
-.PHONY : Log/StatLog.cpp.s
 
 Log/message.o: Log/message.cpp.o
 .PHONY : Log/message.o
@@ -912,15 +912,15 @@ help:
 	@echo "... Log/FileLogger.o"
 	@echo "... Log/FileLogger.i"
 	@echo "... Log/FileLogger.s"
+	@echo "... Log/LogManager.o"
+	@echo "... Log/LogManager.i"
+	@echo "... Log/LogManager.s"
 	@echo "... Log/Logger.o"
 	@echo "... Log/Logger.i"
 	@echo "... Log/Logger.s"
 	@echo "... Log/Observable.o"
 	@echo "... Log/Observable.i"
 	@echo "... Log/Observable.s"
-	@echo "... Log/StatLog.o"
-	@echo "... Log/StatLog.i"
-	@echo "... Log/StatLog.s"
 	@echo "... Log/message.o"
 	@echo "... Log/message.i"
 	@echo "... Log/message.s"

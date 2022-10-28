@@ -10,6 +10,7 @@
 
 class EventPlayerHPTrap : public EventPlayer {
     void eventCell(Field &field);
+    ~EventPlayerHPTrap();
 };
 
 

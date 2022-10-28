@@ -1,13 +1,4 @@
 /home/akimfeopentov/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/222.4167.35/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S "/home/akimfeopentov/Рабочий стол/OOPLB3" -B "/home/akimfeopentov/Рабочий стол/OOPLB3/cmake-build-debug"
 -- Configuring done
-CMake Error at CMakeLists.txt:7 (add_executable):
-  Cannot find source file:
-
-    Log/messages/EventMessages.cpp
-
-
-CMake Error at CMakeLists.txt:7 (add_executable):
-  No SOURCES given to target: untitled2
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done
+-- Build files have been written to: /home/akimfeopentov/Рабочий стол/OOPLB3/cmake-build-debug

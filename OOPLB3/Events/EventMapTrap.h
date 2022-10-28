@@ -12,6 +12,7 @@
 class EventMapTrap : public EventMap {
 public:
     void eventCell(Field &field);
+    ~EventMapTrap();
 };
 
 

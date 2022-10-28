@@ -15,6 +15,7 @@ public:
     EventPlayerTeleport(int y, int x);
 
     void eventCell(Field &field);
+    ~EventPlayerTeleport();
 };
 
 

@@ -15,6 +15,7 @@ public:
     EventMapPassage(int PosCrashY, int PosCrashX);
 
     void eventCell(Field &field);
+    ~EventMapPassage();
 };
 
 

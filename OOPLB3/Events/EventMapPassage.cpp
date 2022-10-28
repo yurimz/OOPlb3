@@ -13,3 +13,4 @@ void EventMapPassage::eventCell(Field &field) {
     field.get_map()[field.getPlayerPosY()][field.getPlayerPosX()].setEvent(nullptr);
     field.get_map()[field.getPlayerPosY()][field.getPlayerPosX()] = GRASS;
 }
+EventMapPassage::~EventMapPassage() {};

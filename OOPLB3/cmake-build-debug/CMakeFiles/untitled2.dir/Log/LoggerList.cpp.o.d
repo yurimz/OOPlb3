@@ -1,19 +1,12 @@
-CMakeFiles/untitled2.dir/Events/EventMapPassage.cpp.o: \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/EventMapPassage.cpp \
+CMakeFiles/untitled2.dir/Log/LoggerList.cpp.o: \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/LoggerList.cpp \
  /usr/include/stdc-predef.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/EventMapPassage.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/EventMap.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/Event.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/Field.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/Cell.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/Field.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/../Events/Event.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/../Player/Player.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/Observable.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/Observer.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/message.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/prefix_log.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/log_type.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/LoggerList.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/Logger.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/Observer.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/message.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/prefix_log.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/log_type.h \
  /usr/include/c++/12/string \
  /usr/include/c++/12/x86_64-suse-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \

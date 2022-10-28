@@ -2,7 +2,6 @@
 #include "Game/LevelTest.h"
 #include <iostream>
 #include "Game/Level2.h"
-#include "Log/StatLog.h"
 
 void Check(int &cur,int left,int right) {
     while (cur < left || cur > right) {
@@ -12,15 +11,14 @@ void Check(int &cur,int left,int right) {
 }
 
 int main() {
-    std::cout
-            << "Если вы хотите выводить логи только в консоль, нажмите 1, "
-               "только в файл нажмите 2, и в консоль и в файл, нажмите 3, не хотите выводить нажмите 0 \n ";
-
+//    std::cout
+//            << "Если вы хотите выводить логи только в консоль, нажмите 1, "
+//               "только в файл нажмите 2, и в консоль и в файл, нажмите 3, не хотите выводить нажмите 0 \n ";
+//
+//    int cur;
+//    std::cin >> cur;
+//    Check(cur,0,3);
     int cur;
-    std::cin >> cur;
-    Check(cur,0,3);
-    StatLog log;
-    log.SetLog(cur);
     std::cout << "Введите уровень игры от 1 до 2" << "\n";
     std::cin >> cur;
     Check(cur,1,2);

@@ -6,9 +6,10 @@
 
 
 void EventPlayerHPDec::eventCell(Field &field) {
+    const int DecHp=10;
     int hp = field.getPlayer()->getHp();
-    if (hp >= 10) {
-        hp -= 10;
+    if (hp >= DecHp) {
+        hp -= DecHp;
     }
     else{
         hp = 0;
@@ -22,3 +23,4 @@ void EventPlayerHPDec::eventCell(Field &field) {
     field.get_map()[field.getPlayerPosY()][field.getPlayerPosX()].setEvent(nullptr);
     field.get_map()[field.getPlayerPosY()][field.getPlayerPosX()]=GRASS;
 }
+EventPlayerHPDec::~EventPlayerHPDec() {}

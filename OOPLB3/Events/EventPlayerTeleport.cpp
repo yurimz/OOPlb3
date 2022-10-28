@@ -12,3 +12,4 @@ void EventPlayerTeleport::eventCell(Field &field) {
     field.setPlayerPosX(PosTeleportX);
     field.setPlayerPosY(PosTeleportY);
 }
+EventPlayerTeleport::~EventPlayerTeleport() {}

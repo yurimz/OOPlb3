@@ -8,6 +8,7 @@
 
 class EventStateLoss :public EventState{
     void eventCell(Field &field);
+    ~EventStateLoss();
 };
 
 

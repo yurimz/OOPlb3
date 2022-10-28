@@ -10,6 +10,7 @@
 class EventStateWin : public EventState {
 public:
     void eventCell(Field &field);
+    ~EventStateWin();
 };
 
 

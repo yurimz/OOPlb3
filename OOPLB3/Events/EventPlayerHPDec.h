@@ -9,6 +9,7 @@
 
 class EventPlayerHPDec: public EventPlayer{
     void eventCell(Field &field);
+    ~EventPlayerHPDec();
 };
 
 

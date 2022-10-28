@@ -9,3 +9,4 @@ void EventStateWin::eventCell(Field &field) {
         field.setState(WIN);
     }
 }
+EventStateWin::~EventStateWin() {}

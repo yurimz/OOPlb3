@@ -10,6 +10,7 @@
 class EventPlayerHPInc : public EventPlayer {
 public:
     void eventCell(Field &field);
+    ~EventPlayerHPInc();
 };
 
 

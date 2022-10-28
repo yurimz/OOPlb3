@@ -12,6 +12,7 @@ Controller::Controller(CommandReader &cur, Field &field) {
     Logger *log = new ConsoleLogger;
     f = new FileLogger("log.txt");
     log->addLogType(LogType::CriticalState);
+    log->addLogType(LogType::ObjectState);
     f->addLogType(LogType::ObjectState);
     subscribe(log);
     subscribe(f);
@@ -45,10 +46,9 @@ void Controller::action(CommandReader &cur, Field &field) {
         field.setPlayerPosY(newPosition.first);
         field.setPlayerPosX(newPosition.second);
         field.triggerCellEvent();
-        notify(Message(LogType::ObjectState, "Player changed position"));
+        //notify(Message(LogType::ObjectState, "Player changed position"));
     } else{
-        notify(Message(LogType::CriticalState, "player tries to pass through stone!"));
-        //notify(PlayerMessages::triesToPassSolidCell(field));
+        //notify(Message(LogType::CriticalState, "player tries to pass through stone!"));
     }
 }
 

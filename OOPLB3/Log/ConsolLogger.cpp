@@ -5,7 +5,6 @@
 #include "ConsolLogger.h"
 
 void ConsoleLogger::update(const Message &message) {
-    lo
     if (logTypeAvailable(message.type()))
         std::cout << message << '\n';
 }

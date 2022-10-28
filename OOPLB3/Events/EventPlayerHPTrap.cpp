@@ -18,3 +18,4 @@ void EventPlayerHPTrap::eventCell(Field &field) {
         field.triggerCellEvent();
     }
 }
+EventPlayerHPTrap::~EventPlayerHPTrap() {}

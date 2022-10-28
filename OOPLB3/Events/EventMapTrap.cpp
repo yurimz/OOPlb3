@@ -20,7 +20,7 @@ void EventMapTrap::eventCell(Field &field) {
     field.get_map()[y][((x + 1) % field.get_amountCellsX() + field.get_amountCellsX()) %
                        field.get_amountCellsX()].setEvent(new EventPlayerHPTrap);
 }
-
+EventMapTrap::~EventMapTrap() {}
 /* P_##_
  * _#P_#
  * __##_
