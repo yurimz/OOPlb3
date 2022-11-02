@@ -8,5 +8,6 @@ void EventStateWin::eventCell(Field &field) {
     if(field.getPlayer()->getHp()>0){
         field.setState(WIN);
     }
+    notify(Message(LogType::ObjectState,"actuation EventStateWin"));
 }
 EventStateWin::~EventStateWin() {}

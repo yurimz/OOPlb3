@@ -162,6 +162,12 @@
 		<Unit filename="/home/akimfeopentov/Рабочий стол/OOPLB3/Events/EventStateWin.h">
 			<Option target="untitled2"/>
 		</Unit>
+		<Unit filename="/home/akimfeopentov/Рабочий стол/OOPLB3/Game/Level.cpp">
+			<Option target="untitled2"/>
+		</Unit>
+		<Unit filename="/home/akimfeopentov/Рабочий стол/OOPLB3/Game/Level.h">
+			<Option target="untitled2"/>
+		</Unit>
 		<Unit filename="/home/akimfeopentov/Рабочий стол/OOPLB3/Game/Level1.cpp">
 			<Option target="untitled2"/>
 		</Unit>
@@ -192,6 +198,12 @@
 		<Unit filename="/home/akimfeopentov/Рабочий стол/OOPLB3/Log/FileLogger.h">
 			<Option target="untitled2"/>
 		</Unit>
+		<Unit filename="/home/akimfeopentov/Рабочий стол/OOPLB3/Log/LogConfigurator.cpp">
+			<Option target="untitled2"/>
+		</Unit>
+		<Unit filename="/home/akimfeopentov/Рабочий стол/OOPLB3/Log/LogConfigurator.h">
+			<Option target="untitled2"/>
+		</Unit>
 		<Unit filename="/home/akimfeopentov/Рабочий стол/OOPLB3/Log/LogManager.cpp">
 			<Option target="untitled2"/>
 		</Unit>
@@ -202,6 +214,12 @@
 			<Option target="untitled2"/>
 		</Unit>
 		<Unit filename="/home/akimfeopentov/Рабочий стол/OOPLB3/Log/Logger.h">
+			<Option target="untitled2"/>
+		</Unit>
+		<Unit filename="/home/akimfeopentov/Рабочий стол/OOPLB3/Log/LoggerPool.cpp">
+			<Option target="untitled2"/>
+		</Unit>
+		<Unit filename="/home/akimfeopentov/Рабочий стол/OOPLB3/Log/LoggerPool.h">
 			<Option target="untitled2"/>
 		</Unit>
 		<Unit filename="/home/akimfeopentov/Рабочий стол/OOPLB3/Log/Observable.cpp">

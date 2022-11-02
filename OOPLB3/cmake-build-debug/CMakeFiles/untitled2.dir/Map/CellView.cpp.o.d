@@ -133,8 +133,8 @@ CMakeFiles/untitled2.dir/Map/CellView.cpp.o: \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/Field.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Player/Player.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/Event.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Map/Field.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/Observable.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/LogManager.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/Logger.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/Observer.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/message.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/prefix_log.h \
@@ -142,4 +142,13 @@ CMakeFiles/untitled2.dir/Map/CellView.cpp.o: \
  /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc
+ /usr/include/c++/12/bits/vector.tcc \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/ConsolLogger.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/FileLogger.h \
+ /usr/include/c++/12/fstream /usr/include/c++/12/bits/codecvt.h \
+ /usr/include/c++/12/x86_64-suse-linux/bits/basic_file.h \
+ /usr/include/c++/12/x86_64-suse-linux/bits/c++io.h \
+ /usr/include/c++/12/bits/fstream.tcc \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/Observable.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Map/Field.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/Observable.h

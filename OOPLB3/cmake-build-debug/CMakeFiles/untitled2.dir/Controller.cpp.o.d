@@ -6,8 +6,8 @@ CMakeFiles/untitled2.dir/Controller.cpp.o: \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/Cell.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/Field.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/Event.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Map/Field.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/Observable.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/LogManager.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/Logger.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/Observer.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/message.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/prefix_log.h \
@@ -110,9 +110,9 @@ CMakeFiles/untitled2.dir/Controller.cpp.o: \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Player/Player.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/FieldView.h \
- /usr/include/c++/12/iostream /usr/include/c++/12/ostream \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/ConsolLogger.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/FileLogger.h \
+ /usr/include/c++/12/fstream /usr/include/c++/12/istream \
  /usr/include/c++/12/ios /usr/include/c++/12/exception \
  /usr/include/c++/12/bits/exception_ptr.h \
  /usr/include/c++/12/bits/cxxabi_init_exception.h \
@@ -142,20 +142,27 @@ CMakeFiles/untitled2.dir/Controller.cpp.o: \
  /usr/include/c++/12/bits/streambuf_iterator.h \
  /usr/include/c++/12/x86_64-suse-linux/bits/ctype_inline.h \
  /usr/include/c++/12/bits/locale_facets.tcc \
- /usr/include/c++/12/bits/basic_ios.tcc \
- /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc \
+ /usr/include/c++/12/bits/basic_ios.tcc /usr/include/c++/12/ostream \
+ /usr/include/c++/12/bits/ostream.tcc \
+ /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/bits/codecvt.h \
+ /usr/include/c++/12/x86_64-suse-linux/bits/basic_file.h \
+ /usr/include/c++/12/x86_64-suse-linux/bits/c++io.h \
+ /usr/include/c++/12/bits/fstream.tcc \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/Observable.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Map/Field.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Events/../Log/Observable.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/../Player/Player.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/FieldView.h \
+ /usr/include/c++/12/iostream \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Map/CellView.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Player/Player.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Read/CommandReader.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/Observable.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/FileLogger.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/Logger.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/Observer.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/message.h \
- /usr/include/c++/12/fstream /usr/include/c++/12/bits/codecvt.h \
- /usr/include/c++/12/x86_64-suse-linux/bits/basic_file.h \
- /usr/include/c++/12/x86_64-suse-linux/bits/c++io.h \
- /usr/include/c++/12/bits/fstream.tcc \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/message.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/ConsolLogger.h
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/ConsolLogger.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/LogConfigurator.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/../Game/Level.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/../Game/../Map/Field.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/LoggerPool.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Log/Logger.h

@@ -5,7 +5,8 @@
 #ifndef UNTITLED2_LEVEL1_H
 #define UNTITLED2_LEVEL1_H
 
-#include "iostream"
+#include <iostream>
+#include "Level.h"
 #include "../Map/FieldView.h"
 #include "../Map/Field.h"
 #include "../Read/CommandReader.h"
@@ -16,8 +17,9 @@
 #include "../Events/EventStateWin.h"
 #include "../Events/EventPlayerHPDec.h"
 #include "../Events/EventPlayerHPInc.h"
+#include "../Log/LogManager.h"
 
-class Level1 {
+class Level1: public Level {
 public:
     void start();
     void gameCurrent(Field &field);

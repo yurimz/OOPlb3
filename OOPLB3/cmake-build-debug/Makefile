@@ -441,6 +441,30 @@ Events/EventStateWin.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Events/EventStateWin.cpp.s
 .PHONY : Events/EventStateWin.cpp.s
 
+Game/Level.o: Game/Level.cpp.o
+.PHONY : Game/Level.o
+
+# target to build an object file
+Game/Level.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Game/Level.cpp.o
+.PHONY : Game/Level.cpp.o
+
+Game/Level.i: Game/Level.cpp.i
+.PHONY : Game/Level.i
+
+# target to preprocess a source file
+Game/Level.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Game/Level.cpp.i
+.PHONY : Game/Level.cpp.i
+
+Game/Level.s: Game/Level.cpp.s
+.PHONY : Game/Level.s
+
+# target to generate assembly for a file
+Game/Level.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Game/Level.cpp.s
+.PHONY : Game/Level.cpp.s
+
 Game/Level1.o: Game/Level1.cpp.o
 .PHONY : Game/Level1.o
 
@@ -561,6 +585,30 @@ Log/FileLogger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/FileLogger.cpp.s
 .PHONY : Log/FileLogger.cpp.s
 
+Log/LogConfigurator.o: Log/LogConfigurator.cpp.o
+.PHONY : Log/LogConfigurator.o
+
+# target to build an object file
+Log/LogConfigurator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/LogConfigurator.cpp.o
+.PHONY : Log/LogConfigurator.cpp.o
+
+Log/LogConfigurator.i: Log/LogConfigurator.cpp.i
+.PHONY : Log/LogConfigurator.i
+
+# target to preprocess a source file
+Log/LogConfigurator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/LogConfigurator.cpp.i
+.PHONY : Log/LogConfigurator.cpp.i
+
+Log/LogConfigurator.s: Log/LogConfigurator.cpp.s
+.PHONY : Log/LogConfigurator.s
+
+# target to generate assembly for a file
+Log/LogConfigurator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/LogConfigurator.cpp.s
+.PHONY : Log/LogConfigurator.cpp.s
+
 Log/LogManager.o: Log/LogManager.cpp.o
 .PHONY : Log/LogManager.o
 
@@ -608,6 +656,30 @@ Log/Logger.s: Log/Logger.cpp.s
 Log/Logger.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/Logger.cpp.s
 .PHONY : Log/Logger.cpp.s
+
+Log/LoggerPool.o: Log/LoggerPool.cpp.o
+.PHONY : Log/LoggerPool.o
+
+# target to build an object file
+Log/LoggerPool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/LoggerPool.cpp.o
+.PHONY : Log/LoggerPool.cpp.o
+
+Log/LoggerPool.i: Log/LoggerPool.cpp.i
+.PHONY : Log/LoggerPool.i
+
+# target to preprocess a source file
+Log/LoggerPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/LoggerPool.cpp.i
+.PHONY : Log/LoggerPool.cpp.i
+
+Log/LoggerPool.s: Log/LoggerPool.cpp.s
+.PHONY : Log/LoggerPool.s
+
+# target to generate assembly for a file
+Log/LoggerPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled2.dir/build.make CMakeFiles/untitled2.dir/Log/LoggerPool.cpp.s
+.PHONY : Log/LoggerPool.cpp.s
 
 Log/Observable.o: Log/Observable.cpp.o
 .PHONY : Log/Observable.o
@@ -897,6 +969,9 @@ help:
 	@echo "... Events/EventStateWin.o"
 	@echo "... Events/EventStateWin.i"
 	@echo "... Events/EventStateWin.s"
+	@echo "... Game/Level.o"
+	@echo "... Game/Level.i"
+	@echo "... Game/Level.s"
 	@echo "... Game/Level1.o"
 	@echo "... Game/Level1.i"
 	@echo "... Game/Level1.s"
@@ -912,12 +987,18 @@ help:
 	@echo "... Log/FileLogger.o"
 	@echo "... Log/FileLogger.i"
 	@echo "... Log/FileLogger.s"
+	@echo "... Log/LogConfigurator.o"
+	@echo "... Log/LogConfigurator.i"
+	@echo "... Log/LogConfigurator.s"
 	@echo "... Log/LogManager.o"
 	@echo "... Log/LogManager.i"
 	@echo "... Log/LogManager.s"
 	@echo "... Log/Logger.o"
 	@echo "... Log/Logger.i"
 	@echo "... Log/Logger.s"
+	@echo "... Log/LoggerPool.o"
+	@echo "... Log/LoggerPool.i"
+	@echo "... Log/LoggerPool.s"
 	@echo "... Log/Observable.o"
 	@echo "... Log/Observable.i"
 	@echo "... Log/Observable.s"

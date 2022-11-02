@@ -133,8 +133,8 @@ CMakeFiles/untitled2.dir/Game/Level2.cpp.o: \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/Field.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/Cell.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/Event.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/../Map/Field.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/../Log/Observable.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/../Log/LogManager.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/../Log/Logger.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/../Log/Observer.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/../Log/message.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/../Log/prefix_log.h \
@@ -143,6 +143,15 @@ CMakeFiles/untitled2.dir/Game/Level2.cpp.o: \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/../Log/ConsolLogger.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/../Log/FileLogger.h \
+ /usr/include/c++/12/fstream /usr/include/c++/12/bits/codecvt.h \
+ /usr/include/c++/12/x86_64-suse-linux/bits/basic_file.h \
+ /usr/include/c++/12/x86_64-suse-linux/bits/c++io.h \
+ /usr/include/c++/12/bits/fstream.tcc \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/../Log/Observable.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/../Map/Field.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Events/../Log/Observable.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/../Player/Player.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/CellView.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Map/Field.h \
@@ -154,13 +163,6 @@ CMakeFiles/untitled2.dir/Game/Level2.cpp.o: \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Read/CommandReader.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Log/Observable.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Log/FileLogger.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Log/Logger.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Log/Observer.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Log/message.h \
- /usr/include/c++/12/fstream /usr/include/c++/12/bits/codecvt.h \
- /usr/include/c++/12/x86_64-suse-linux/bits/basic_file.h \
- /usr/include/c++/12/x86_64-suse-linux/bits/c++io.h \
- /usr/include/c++/12/bits/fstream.tcc \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Events/EventMapTrap.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Events/EventMap.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Events/Event.h \
@@ -172,4 +174,7 @@ CMakeFiles/untitled2.dir/Game/Level2.cpp.o: \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Events/EventMapPassage.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Events/EventStateWin.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Events/EventPlayerHPDec.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Events/EventPlayerHPInc.h
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Events/EventPlayerHPInc.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/Level.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Log/LogConfigurator.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Game/../Log/../Game/Level.h
