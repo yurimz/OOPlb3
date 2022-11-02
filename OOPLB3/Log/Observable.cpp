@@ -26,3 +26,8 @@ void Observable::notify(const Message &message) {
         obr->update(message);
     }
 }
+
+void Observable::copySubscriptions(Observable *other) {
+    for (Observer *obs : other->list)
+        list.push_back(obs);
+}

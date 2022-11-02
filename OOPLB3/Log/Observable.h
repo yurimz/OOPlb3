@@ -13,7 +13,7 @@ public:
     void subscribe(Observer *observer);
     void unsubscribe(Observer *observer);
     void notify(const Message &message);
-   // void copySubscriptions(Observable *other);
+    void copySubscriptions(Observable *other);
 };
 
 

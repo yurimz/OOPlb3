@@ -5,6 +5,9 @@
 #include "Level2.h"
 
 void Level2::start() {
+    auto logConfigurator = LogConfigurator(this);
+    logConfigurator.configure();
+    notify(Message(LogType::GameState,"Game start"));
     const int amountCellX = 17;
     const int amountCellY = 12;
     Field field = Field(amountCellX, amountCellY);
@@ -13,7 +16,9 @@ void Level2::start() {
     field.get_map()[1][0]=STONE;
     field.get_map()[0][amountCellX-2]=STONE;
     field.get_map()[0][amountCellX-1]=HP_DEC;
-    field.get_map()[0][amountCellX-1].setEvent(new EventPlayerHPDec);
+    Event * ev=new EventPlayerHPDec;
+    ev->copySubscriptions(this);
+    field.get_map()[0][amountCellX-1].setEvent(ev);
     field.get_map()[1][amountCellX-2]=STONE;
     field.get_map()[2][amountCellX-2]=STONE;
     field.get_map()[2][amountCellX-1]=STONE;
@@ -24,9 +29,13 @@ void Level2::start() {
     field.get_map()[amountCellY-2][amountCellX-2]=STONE;
     field.get_map()[amountCellY-2][amountCellX-1]=STONE;
     field.get_map()[amountCellY-1][amountCellX-1]=CRASH;
-    field.get_map()[amountCellY-1][amountCellX-1].setEvent(new EventMapPassage(0,1));
+    ev=new EventMapPassage(0,1);
+    ev->copySubscriptions(this);
+    field.get_map()[amountCellY-1][amountCellX-1].setEvent(ev);
     field.get_map()[7][7]=FINISH;
-    field.get_map()[7][7].setEvent(new EventStateWin);
+    ev=new EventStateWin;
+    ev->copySubscriptions(this);
+    field.get_map()[7][7].setEvent(ev);
     gameCurrent(field);
 }
 
@@ -34,6 +43,7 @@ void Level2::start() {
 void Level2::gameCurrent(Field &field) {
     CommandReader curRead;
     Controller Control = Controller(curRead, field);
+    Control.copySubscriptions(this);
     FieldView painting = FieldView(field);
     painting.Field_write(field);
     while (curRead.getCommand() != 'l') {
@@ -43,10 +53,12 @@ void Level2::gameCurrent(Field &field) {
         painting.Field_write(field);
         if (field.getState() == LOSS) {
             std::cout << "YOU LOSS!\n";
+            notify(Message(LogType::GameState,"Game end"));
             break;
         }
         if (field.getState() == WIN) {
             std::cout << "YOU WON!\n";
+            notify(Message(LogType::GameState,"Game end"));
             break;
         }
     }
