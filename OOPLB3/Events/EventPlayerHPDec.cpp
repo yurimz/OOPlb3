@@ -16,6 +16,7 @@ void EventPlayerHPDec::eventCell(Field &field) {
     }
 
     field.getPlayer()->setHp(hp);
+    notify(Message(LogType::ObjectState,"actuation EventPlayerHPDec"));
     if(hp==0){
         field.get_map()[field.getPlayerPosY()][field.getPlayerPosX()].setEvent(new EventStateLoss);
         field.triggerCellEvent();

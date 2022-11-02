@@ -9,9 +9,11 @@
 
 class Logger : public Observer {
     std::vector<LogType> m_types;
-protected:
-    bool logTypeAvailable(const LogType &type) const;
 public:
+    Logger(){
+        m_types=std::vector<LogType>(0);
+    }
+    bool logTypeAvailable(const LogType &type) const;
     void addLogType(const LogType &type);
     void deleteLogType(const LogType &type);
     virtual ~Logger() = default;
