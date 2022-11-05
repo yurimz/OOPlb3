@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/akimfeopentov/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/OOPLB3/cmake-build-debug",
-		"source" : "/home/akimfeopentov/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/OOPLB3"
+		"build" : "/home/akimfeopentov/OOPlb3/OOPLB3/cmake-build-debug",
+		"source" : "/home/akimfeopentov/OOPlb3/OOPLB3"
 	},
 	"version" : 
 	{

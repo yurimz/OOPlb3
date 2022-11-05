@@ -4,8 +4,12 @@ CMakeFiles/untitled2.dir/Events/EventPlayerHPInc.cpp.o: \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/EventPlayerHPInc.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/EventPlayer.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/Event.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/LogManager.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/Logger.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/Field.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/Cell.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/Field.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/../Events/Event.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/../Player/Player.h \
+ /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/Observable.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/Observer.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/message.h \
  /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/prefix_log.h \
@@ -107,12 +111,9 @@ CMakeFiles/untitled2.dir/Events/EventPlayerHPInc.cpp.o: \
  /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
- /usr/include/c++/12/bits/vector.tcc \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/ConsolLogger.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/FileLogger.h \
- /usr/include/c++/12/fstream /usr/include/c++/12/istream \
- /usr/include/c++/12/ios /usr/include/c++/12/exception \
- /usr/include/c++/12/bits/exception_ptr.h \
+ /usr/include/c++/12/bits/vector.tcc /usr/include/c++/12/iostream \
+ /usr/include/c++/12/ostream /usr/include/c++/12/ios \
+ /usr/include/c++/12/exception /usr/include/c++/12/bits/exception_ptr.h \
  /usr/include/c++/12/bits/cxxabi_init_exception.h \
  /usr/include/c++/12/typeinfo /usr/include/c++/12/bits/nested_exception.h \
  /usr/include/c++/12/bits/ios_base.h /usr/include/c++/12/ext/atomicity.h \
@@ -140,17 +141,6 @@ CMakeFiles/untitled2.dir/Events/EventPlayerHPInc.cpp.o: \
  /usr/include/c++/12/bits/streambuf_iterator.h \
  /usr/include/c++/12/x86_64-suse-linux/bits/ctype_inline.h \
  /usr/include/c++/12/bits/locale_facets.tcc \
- /usr/include/c++/12/bits/basic_ios.tcc /usr/include/c++/12/ostream \
- /usr/include/c++/12/bits/ostream.tcc \
- /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/bits/codecvt.h \
- /usr/include/c++/12/x86_64-suse-linux/bits/basic_file.h \
- /usr/include/c++/12/x86_64-suse-linux/bits/c++io.h \
- /usr/include/c++/12/bits/fstream.tcc \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/Observable.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/Field.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/Cell.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/Field.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/../Events/Event.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Map/../Player/Player.h \
- /home/akimfeopentov/Рабочий\ стол/OOPLB3/Events/../Log/Observable.h \
- /usr/include/c++/12/iostream
+ /usr/include/c++/12/bits/basic_ios.tcc \
+ /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
+ /usr/include/c++/12/bits/istream.tcc

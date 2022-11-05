@@ -1,4 +1,4 @@
-# Install script for directory: /home/akimfeopentov/Рабочий стол/OOPLB3
+# Install script for directory: /home/akimfeopentov/OOPlb3/OOPLB3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/akimfeopentov/Рабочий стол/OOPLB3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/akimfeopentov/OOPlb3/OOPLB3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
