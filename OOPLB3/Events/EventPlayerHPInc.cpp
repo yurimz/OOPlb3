@@ -13,7 +13,7 @@ void EventPlayerHPInc::eventCell(Field &field) {
     } else
         hp = 100;
     field.getPlayer()->setHp(hp);
-    field.getPlayer()->setHp(hp);
+    notify(Message(LogType::ObjectState,"actuation EventPlayerHPInc"));
     field.get_map()[field.getPlayerPosY()][field.getPlayerPosX()].setEvent(nullptr);
     field.get_map()[field.getPlayerPosY()][field.getPlayerPosX()] = GRASS;
 }

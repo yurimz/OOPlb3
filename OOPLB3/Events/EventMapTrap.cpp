@@ -13,12 +13,15 @@ void EventMapTrap::eventCell(Field &field) {
     field.setCell(x, y - 1, Cell(STONE));
     field.setCell(x + 1, y + 1, Cell(STONE));
     field.setCell(x + 1, y - 1, Cell(STONE));
+    notify(Message(LogType::ObjectState,"actuation EventMapTrap"));
+    Event *ev = new EventPlayerHPTrap;
+    ev->copySubscriptions(this);
     field.get_map()[y][x]=HP_DEC;
     field.get_map()[y][((x + 1) % field.get_amountCellsX() + field.get_amountCellsX()) %
                        field.get_amountCellsX()]=HP_DEC;
-    field.get_map()[y][x].setEvent(new EventPlayerHPTrap);
+    field.get_map()[y][x].setEvent(ev);
     field.get_map()[y][((x + 1) % field.get_amountCellsX() + field.get_amountCellsX()) %
-                       field.get_amountCellsX()].setEvent(new EventPlayerHPTrap);
+                       field.get_amountCellsX()].setEvent(ev);
 }
 EventMapTrap::~EventMapTrap() {}
 /* P_##_

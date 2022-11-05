@@ -15,8 +15,10 @@
 #include "../Events/EventStateWin.h"
 #include "../Events/EventPlayerHPDec.h"
 #include "../Events/EventPlayerHPInc.h"
+#include "Level.h"
+#include "../Log/LogConfigurator.h"
 
-class Level2 {
+class Level2: public Level{
 public:
     void start();
     void gameCurrent(Field &field);
